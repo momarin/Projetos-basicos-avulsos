@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+}
+
+main {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  min-width: 400px;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.info {
+  font-size: 1.2rem;
+  color: #34495e;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem;
+  background: #ecf0f1;
+  border-radius: 4px;
+}
+
+.input-group {
+  margin: 1rem 0;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+input {
+  padding: 0.5rem;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 200px;
+}
+
+button {
+  padding: 0.5rem 1.5rem;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+.btn-emprestar {
+  background: #e67e22;
+}
+
+.btn-emprestar:hover {
+  background: #d35400;
+}
+
+.btn-devolver {
+  background: #27ae60;
+}
+
+.btn-devolver:hover {
+  background: #229954;
+}
+
+.mensagem {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  min-height: 2rem;
+}
+
+.mensagem.sucesso {
+  background: #d5f5e3;
+  color: #1a7a42;
+}
+
+.mensagem.erro {
+  background: #fadbd8;
+  color: #922b21;
+}

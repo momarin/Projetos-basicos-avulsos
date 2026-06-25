@@ -1,0 +1,7 @@
+lendo o método emprestar
+
+"O array de livros (this.#livros) vai receber (=) 
+uma versão filtrada (.filter) de si mesmo (this.#livros)
+onde para cada elemento do array ((elemento) =>)
+esse elemento (elemento) precisa ser diferente (!==) 
+do livro (livro) que queremos remover"

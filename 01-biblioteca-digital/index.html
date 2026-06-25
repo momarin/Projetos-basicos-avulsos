@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca Digital</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- script -->
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>📚 Biblioteca Digital</h1>
+
+      <div class="info">
+        <p>📖 Livros disponíveis: <span id="livrosDisponiveis">0</span></p>
+        <p>📕 Livros emprestados: <span id="livrosEmprestados">0</span></p>
+      </div>
+
+      <div class="input-group">
+        <input type="text" id="nomeLivro" placeholder="Nome do livro" />
+        <button onclick="biblioteca.adicionar()" class="btn-adicionar">
+          ➕ Adicionar
+        </button>
+      </div>
+
+      <div class="input-group">
+        <input
+          type="text"
+          id="livroEmprestar"
+          placeholder="Livro para emprestar"
+        />
+        <button onclick="biblioteca.emprestar()" class="btn-emprestar">
+          📤 Emprestar
+        </button>
+      </div>
+
+      <div class="input-group">
+        <input
+          type="text"
+          id="livroDevolver"
+          placeholder="Livro para devolver"
+        />
+        <button onclick="biblioteca.devolver()" class="btn-devolver">
+          📥 Devolver
+        </button>
+      </div>
+
+      <div id="mensagem" class="mensagem"></div>
+    </main>
+
+    <script>
+      // Seu código JavaScript vai aqui!
+    </script>
+  </body>
+</html>
